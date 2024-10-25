@@ -32,13 +32,13 @@
         @media (min-width: 1024px) {
           body {
             width: 50%; /* 设置宽度为页面宽度的50% */
-            margin: 0 25%; /* 设置左右边距为25% */
+            margin: 5% 25%; /* 设置左右边距为25% */
           }
         }
                 
                 
         body {
-            background-color: #fffef7;
+            background-color: #f7faff;
             color: #333333;
             font-family: "Palatino", Times New Roman, Helvetica, Arial, sans-serif;
             font-size: 18px;
