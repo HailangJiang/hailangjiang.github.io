@@ -63,11 +63,13 @@
         }
 
         a {
-          color: #032c6b;
+          color: #022354;
+          text-decoration: underline;
         }
 
         a:visited {
-          color: #032c6b;
+          color: #022354;
+          text-decoration: underline;
         }
         
         a {
