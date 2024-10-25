@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Palatino";
+  src: url("fonts/Palatino.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DINMedium";
+  src: url("fonts/DINMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("fonts/GothamBold.ttf") format("truetype");
+}
+
+       header {
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }        
+
+        /* 设置页面主体样式 */
+        body {
+          width: 100%; /* 设置宽度为页面宽度的75% */
+          margin: 0 auto; /* 设置左右边距为自动，实现居中 */
+          padding: 10px; /* 设置内边距 */
+        }
+
+        /* 设置电脑端样式 */
+        @media (min-width: 1024px) {
+          body {
+            width: 50%; /* 设置宽度为页面宽度的50% */
+            margin: 0 25%; /* 设置左右边距为25% */
+          }
+        }
+                
+                
+        body {
+            background-color: #F5ECDB;
+            color: #333333;
+            font-family: "Palatino", Times New Roman, Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+
+
+            @media (min-width: 500px) {
+            margin-top: 0%;
+            margin-bottom: 20%;
+            margin-left: 25%;
+            margin-right: 25%;
+            }
+                
+            @media (max-width: 500px) {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            }
+            
+
+        }
+
+        a {
+          color: #D78F54;
+        }
+
+        a:visited {
+          color: #B14E2F;
+        }
+        
+        a {
+          text-decoration: none;
+        }
+
+
+          /* 响应式图片样式 */
+          .responsive-img {
+
+            
+            max-width: 100%;
+            height: auto;
+            
+            @media (min-width: 500px) {
+                    .responsive-img {
+                    max-width: 50%;
+                    height: auto;
+                    }}
+            margin: 0 auto; /* 水平居中 */
+            display: block; /* 去除默认的行内元素样式 */
+          }
+
+           .navbar {
+                  width: 100%;
+                  margin: 0;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  padding: 0px;
+                  background-color: #E2C397;
+                }
+
+
+
+
+
+            .navbar-left {
+                  margin-right: auto;
+                }
+                
+            .navbar-left a {
+                  color: #ffffff;
+                }
+
+            .navbar-right {
+                  display: flex;
+                  justify-content: flex-end;
+                }
+
+            .navbar-right a {
+                  margin-left: 20px;
+                }
+            
+            .navbar ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              display: flex;
+            }
+
+            .navbar li {
+              margin: 0;
+            }
+
+            .navbar a {
+              display: block;
+              color: #fff;
+              text-decoration: none;
+              font-family: Helvetica, Times New Roman, Arial, sans-serif;
+              font-size: 20px;
+              font-weight: bold;
+              padding: 10px;
+              transition: background-color 0.5s ease;
+            }
+             
+             .navbar-left a {
+                  color: #ffffff;
+                }
+
+            .navbar a:hover {
+              background-color: #E0AA69;
+            }
