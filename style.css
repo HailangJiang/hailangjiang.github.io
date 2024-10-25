@@ -152,7 +152,7 @@
         .text {
             flex: 2; /* 左边占 2/3 */
             padding: 10px;
-            background-color: #f0f0f0;
+            background-color: #f7faff;
         }
         .image {
             flex: 1; /* 右边占 1/3 */
