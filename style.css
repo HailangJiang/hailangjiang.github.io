@@ -38,7 +38,7 @@
                 
                 
         body {
-            background-color: #f7f7f7;
+            background-color: #ffffff;
             color: #333333;
             font-family: "Palatino", Times New Roman, Helvetica, Arial, sans-serif;
             font-size: 18px;
@@ -156,7 +156,7 @@
         .text {
             flex: 2; /* 左边占 2/3 */
             padding: 10px;
-            background-color: #f7f7f7;
+            background-color: #ffffff;
         }
         .image {
             flex: 1; /* 右边占 1/3 */
