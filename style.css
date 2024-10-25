@@ -145,6 +145,10 @@
                   color: #ffffff;
                 }
 
+            .navbar a:hover {
+              background-color: #E0AA69;
+            }
+
         .container {
             display: flex;
             width: 100%; /* 让容器占据整列宽度 */
@@ -162,7 +166,3 @@
             width: 100%; /* 确保图片自适应右边的区域 */
             height: auto;
         }
-
-            .navbar a:hover {
-              background-color: #E0AA69;
-            }
